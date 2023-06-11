@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: space-around;
+    font-family: Roboto, 'Open Sans', sans-serif;
+    height: 50px;
+    align-items: center;
+}
+
+.logo {
+    font-size: larger;
+    font-weight: 900;
+}
+
+.right-links {
+    display: flex;
+    gap: 1rem;
+    font-size: small;
+}
