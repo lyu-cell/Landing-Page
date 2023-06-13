@@ -30,7 +30,7 @@ body {
     display: flex;
     padding-top: 1rem;
     gap: 13px;
-    height: 300px;
+    height: 400px;
     align-items: center;
     padding-bottom: 30px;
     flex: 1;
@@ -69,9 +69,11 @@ button {
 
 .imagecontainer {
     display: flex;
-    border: 2px solid black;
     align-items: center;
     flex-direction: column;
+    height: 400px;
+    justify-content: center;
+    gap: 25px;
     
 }
 
@@ -79,7 +81,7 @@ button {
     font-size: 36px;
     color: #1F2937;
     font-weight: bolder;
-    margin: 50px;
+    margin-top: -20px;
 }
 
 .item {
@@ -103,7 +105,42 @@ button {
     width: 150px;
 }
 
-.imagecontainer {
-    padding-left: 0px;
-    padding-right: 0px;
+.quote-container {
+    height: 400px;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    width: 770px;
+    text-align: start;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.author {
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
+    color: #1F2937;
+    padding-right: 2rem;
+}
+
+.call-to-action-container {
+    height: 400px;
 }
