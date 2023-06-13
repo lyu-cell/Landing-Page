@@ -33,20 +33,28 @@ body {
     padding-top: 1rem;
     gap: 13px;
     height: 400px;
+    justify-content: center;
     align-items: center;
     padding-bottom: 30px;
     flex: 1;
-    padding-left: 123px;
-    padding-right: 123px;
 }    
 
 ul {
     list-style-type: none;
     display: flex;
-    flex-direction: column;
     padding: 0;
     gap: 10px;
+    width: 680px;
+    justify-content: center;
+    align-items: center;
 }
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .hero-text {
     font-size: 48px;
     font-weight: bolder;
@@ -56,8 +64,8 @@ ul {
 .image-placeholder {
     background-color: rgb(180, 180, 180);
     height: 180px;
-    margin: 5px;
-    width: 660px;
+    width: 600px;
+    
 }
 
 .button {
